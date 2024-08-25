@@ -1,20 +1,13 @@
-# BEM2040_Template
-This is a template repository for the BEM2040 Database Technologies for Business Analysts module.
+# Business Project (BEMM466_A_3_202324) - Dissatation
+By Worada Nuampan (730047147)
 
-## Folders
-There are three folders in this repository.  
-1.  Models
-    This folder should contain your ERD and normalisation files.
+The project : A Machine Learning Approach for Sentiment Analysis of Spotify Reviews in the United Kingdom 
 
-2.  Python Files
-    This folder should contain all python files that will demonstrate the business logic for your database project.
+## Project Description
+This project is focusing on sentiment analysis by using machine learning on the most recent year of Spotify's reviews. 
+There are five machine learning approaches that has been applied in this study which are Multinomial Naive Bayes (NB), Support Vector Machine (SVM), Logistic Regression, Stochastic Gradient Descent (SGD), and Random Forest. However, the project selected the best model out of 5 approaches to perform further process which is aspect-based sentiment analysis. The most interesting 5 topic from each polarity will be chosen to analysis in this project. 
 
-3.  SQL Files
-    This folder should contain a backup of your database.  These are expected to be the DDL files that can be exported from your database as "Script As Create".  Ensure you include all tables, views, stored procedures and triggers.
-
-## Instructions
-Prior to submission you must edit this README file so that it shows clearly the information about your database project.  Delete the information provided here and replace with your own.
-
-You must place a description of your database project here.  Provide a summary of the project, what is the background to it.  Ensure this is detailed enough to communicate to somebody who is not a domain expert what they should expect this database schema to provide.
-
-Place links to your folders and edit the README files in the folders to explain what the files contain.
+## In this project contains:
+- Dataset : the repository has two dataset which is the raw dataset (as Spotify Dataset.zip), and the preprocessing data set (as Spotify_preprocessing_data.zip). Also, It can found in One drive as https://universityofexeteruk-my.sharepoint.com/:f:/g/personal/wn258_exeter_ac_uk/EiA5mKDUQv1HkjOAJQSdb0MBmHjyxv9B5ISf41gef7VkmA?e=RxnJMq on both raw data and cleaned data.
+- Applying machine learning approaches for sentiment analysis : It consist of 5 approaches, there are Multinomial Naive Bayes (NB), Support Vector Machine (SVM), Logistic Regression, Stochastic Gradient Descent (SGD), and Random Forest.
+- Key apects of each polarity: By using Aspect-based sentiment analysis (ABSA)
